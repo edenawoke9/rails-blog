@@ -1,0 +1,31 @@
+<%= form_with model: @article do |f| %>
+    <div>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </div>
+  
+    <div>
+      <%= f.label :genra, "Genra" %>
+      <%= f.text_field :genra %> 
+    </div>
+  
+    <div>
+      <%= f.label :date, "Date" %>
+      <%= f.date_select :data %> 
+    </div>
+  
+    <div>
+      <%= f.label :author, "Author" %>
+      <%= f.text_field :author %>
+    </div>
+  
+    <div>
+      <%= f.label :body, "Content" %>
+      <%= f.text_area :body %>
+    </div>
+  
+    <div>
+      <%= f.submit "Create Article" %>
+    </div>
+  <% end %>
+  
