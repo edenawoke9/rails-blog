@@ -8,3 +8,89 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5e6cc;
+    color: #3d2b1f;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  .button{
+    background-color: #cda284;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    vertical-align: center;
+
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    border-bottom: 3px double #3d2b1f;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #2c1a10;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: wheat;
+    border-bottom: 1px solid #3d2b1f;
+  }
+  
+  a {
+    text-decoration: none;
+    color:#5a2d0c;
+    font-weight: bold;
+    
+    padding: 3px;
+
+  }
+  
+  a:hover {
+    color: #5a2d0c;
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  form {
+    background: #fff8e7;
+    padding: 15px;
+    border: 1px solid #3d2b1f;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #3d2b1f;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  input[type="submit"] {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #5a2d0c;
+  }
+  
+  
