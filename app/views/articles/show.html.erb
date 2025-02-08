@@ -1,7 +1,19 @@
+<p class="button"><%=  link_to "Back", articles_path%></p>
 <h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
 <p><%= @article.author %></p>
-<p><%= @article.data %></p>
+<p><%= @article.date %></p>
 <p><%= @article.genra %></p>
+<h2>Comments</h2>
+
+<% @article.comments %>
+
+  
+  
+
+<h1>Add Comment</h1>
+<%= render "comments/form", article: @article %>
+
+
 
