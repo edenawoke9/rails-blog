@@ -1,3 +1,4 @@
+<p class="button"><%=  link_to "Back", articles_path%></p>
 <h1><%= @article.title %></h1>
 
 <p><%= @article.body %></p>
@@ -5,7 +6,7 @@
 <p><%= @article.date %></p>
 <p><%= @article.genra %></p>
 <h2>Comments</h2>
-<p class="button"><%=  link_to "Back", articles_path%></p>
+
 <% @article.comments %>
 
   
